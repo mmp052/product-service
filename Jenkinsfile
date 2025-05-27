@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         SERVICE = 'product-service'
-        NAME = "gubscruz/${env.SERVICE}"
+        NAME = "mmp052/${env.SERVICE}"
     }
     stages {
         stage('Dependecies') {
