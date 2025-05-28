@@ -20,3 +20,4 @@ spring:
   flyway:
     schemas: product
     baseline-on-migrate: true
+    repair-on-validation-error: true
